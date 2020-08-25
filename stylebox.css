@@ -1,0 +1,269 @@
+h2
+{
+    background-color: black;
+    color: #1AE1EB;
+    text-align: center;
+    font-size: 1.2em;
+    border: 2px solid black;
+    margin: 0;
+    padding: 0;
+}
+
+h3
+{
+    font-size: 1.2em;
+    margin: 0;
+    padding: 5px;
+}
+
+#CV
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.gauche
+{
+    display: flex;
+    flex-direction: column;
+    background-color: #1AE1EB;
+    width: 30%; 
+    height: 1000px;
+}
+
+@media screen and (max-width: 1024px)
+{
+    .gauche
+    {
+        width: 100%; 
+    }
+    #CV
+    {
+        flex-direction: column-reverse;
+    }
+}
+
+.photo
+{
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.photoYMR
+{
+    border: 1px solid black;
+    border-radius: 80px 80px;
+}
+
+
+.contact
+{
+    height: 150px;
+    display: flex;
+
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.coordonnee
+{
+    font-size: 0.7em;
+    width: 90%;
+}
+
+article
+{
+    font-size: 0.7em;
+    width: 90%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;    
+    align-self: center;
+}
+
+.loisirs
+{
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.droite
+{
+    width: 70%; 
+    height: 1400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+
+@media screen and (max-width: 1024px)
+{
+    .droite
+    {
+        width: 100%; 
+    }
+}
+
+.droite-centre
+{
+    width: 90%; 
+}
+
+header
+{
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /*align-items: center;    */
+}
+
+.identite
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.prenom
+{
+    color: #1AE1EB;
+    font-size: 3.0em;    
+    margin: 0 10px 0 0;
+}
+
+.nom
+{
+    color: black;
+    font-size: 3.0em;
+}
+
+.metier
+{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.soulignement
+{
+    border-bottom: 1px solid #1AE1EB;
+}
+
+.trait
+{
+    border-top: 1px solid #1AE1EB;
+}
+
+
+
+
+.rubrique
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.picto
+{
+    width: 45px; 
+}
+
+
+.conteneur_puce
+{
+    width: 20px;
+    height:12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+.puce_majeure
+
+{
+    width: 10px;
+    height: 10px;
+    background-color: #1AE1EB;
+    border: 1px solid  #1AE1EB;
+    border-radius: 5px 5px;
+}
+.puce
+{
+    width: 4px;
+    height: 4px;
+    background-color: #1AE1EB;
+    border: 1px solid  #1AE1EB;
+    border-radius: 2px 2px;
+}
+
+.item_majeur
+{
+    display: flex;
+    flex-direction: row;
+    margin: 25px 0 25px 0;
+}
+    
+.item
+{
+    display: flex;
+    flex-direction: row;
+    margin: 25px 0 25px 0;
+}
+    
+.date
+{
+    font-size: 0.8em;
+    width: 35%; 
+    display: flex;
+}
+
+
+
+.ecole
+{
+    width: 65%; 
+    display: flex;
+    flex-direction: column;
+} 
+ 
+.entreprise
+{
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.complement
+{
+    font-size: 0.8em;
+}
+
